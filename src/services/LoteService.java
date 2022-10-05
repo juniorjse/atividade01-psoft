@@ -3,7 +3,6 @@ package services;
 import java.util.Collection;
 
 import models.Lote;
-import models.Produto;
 import repositories.LoteRepository;
 
 public class LoteService {
