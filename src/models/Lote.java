@@ -37,6 +37,6 @@ public class Lote {
 	}
 
 	public String toString() {
-		return "ID: " + getId() + " ; Produto: " + getProduto().getNome() + " ; " + getQuantidade() + " itens";
+		return "ID: " + getId() + " Produto: " + getProduto().getNome() + " - " + getQuantidade() + " unidade(s)";
 	}
 }

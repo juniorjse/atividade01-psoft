@@ -27,7 +27,6 @@ public class Facade {
 		return this.produtoService.listarProdutos();
 	}
 	
-
 	public String criarProduto(Produto produto) {
 		return this.produtoService.addProduto(produto);
 	}

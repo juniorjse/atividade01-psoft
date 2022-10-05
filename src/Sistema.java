@@ -16,12 +16,12 @@ public class Sistema {
 		
 		Facade mercadoFacade = new Facade();
 		
-		// Adiciona produtos no catálogo		
+		// Adicionando produto		
 		mercadoFacade.criarProduto(prod1);
 		mercadoFacade.criarProduto(prod2);
 		mercadoFacade.criarProduto(prod3);
 				
-		// Adicionando lotes no catálogo
+		// Adicionando lote
 		mercadoFacade.criarLote(l1);
 		mercadoFacade.criarLote(l2);
 		
